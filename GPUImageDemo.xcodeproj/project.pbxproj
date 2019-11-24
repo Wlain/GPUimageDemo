@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,14 @@
 		3D5A83E1225627B8004DB6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5A83E0225627B8004DB6CC /* Assets.xcassets */; };
 		3D5A83E4225627B8004DB6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5A83E2225627B8004DB6CC /* LaunchScreen.storyboard */; };
 		3D5A83E7225627B8004DB6CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A83E6225627B8004DB6CC /* main.m */; };
+		3DBBDD2523897B85006E7FAB /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DBBDD2423897B85006E7FAB /* test.jpg */; };
+		3DBBDD2A23898A09006E7FAB /* GPUImageFilterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBDD2923898A09006E7FAB /* GPUImageFilterBase.m */; };
+		3DFA66D1238AD6DA00022790 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66D0238AD6DA00022790 /* CameraManager.m */; };
+		3DFA66D4238AD6FD00022790 /* CaptureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66D3238AD6FD00022790 /* CaptureButton.m */; };
+		3DFA66D7238AD73D00022790 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66D6238AD73D00022790 /* CameraViewController.m */; };
+		3DFA66DA238AD82600022790 /* CameraViewControl+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66D9238AD82600022790 /* CameraViewControl+Private.m */; };
+		3DFA66DD238AD87000022790 /* CameraViewController+TakePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66DC238AD87000022790 /* CameraViewController+TakePhoto.m */; };
+		3DFA66E0238AD88600022790 /* CameraViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA66DF238AD88600022790 /* CameraViewController+UI.m */; };
 		B1637FAB7CBCD79CCA59854A /* libPods-GPUImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0414C08A07E5A6EAFEC4A3CE /* libPods-GPUImageDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +37,21 @@
 		3D5A83E3225627B8004DB6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D5A83E5225627B8004DB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5A83E6225627B8004DB6CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DBBDD2423897B85006E7FAB /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		3DBBDD2823898A09006E7FAB /* GPUImageFilterBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageFilterBase.h; sourceTree = "<group>"; };
+		3DBBDD2923898A09006E7FAB /* GPUImageFilterBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageFilterBase.m; sourceTree = "<group>"; };
+		3DFA66CF238AD6DA00022790 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		3DFA66D0238AD6DA00022790 /* CameraManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		3DFA66D2238AD6FD00022790 /* CaptureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureButton.h; sourceTree = "<group>"; };
+		3DFA66D3238AD6FD00022790 /* CaptureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureButton.m; sourceTree = "<group>"; };
+		3DFA66D5238AD73D00022790 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		3DFA66D6238AD73D00022790 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		3DFA66D8238AD82600022790 /* CameraViewControl+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraViewControl+Private.h"; sourceTree = "<group>"; };
+		3DFA66D9238AD82600022790 /* CameraViewControl+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CameraViewControl+Private.m"; sourceTree = "<group>"; };
+		3DFA66DB238AD87000022790 /* CameraViewController+TakePhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraViewController+TakePhoto.h"; sourceTree = "<group>"; };
+		3DFA66DC238AD87000022790 /* CameraViewController+TakePhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CameraViewController+TakePhoto.m"; sourceTree = "<group>"; };
+		3DFA66DE238AD88600022790 /* CameraViewController+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraViewController+UI.h"; sourceTree = "<group>"; };
+		3DFA66DF238AD88600022790 /* CameraViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CameraViewController+UI.m"; sourceTree = "<group>"; };
 		53FDC2221657DD04AE6CDB76 /* Pods-GPUImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImageDemo.debug.xcconfig"; path = "Target Support Files/Pods-GPUImageDemo/Pods-GPUImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +88,9 @@
 		3D5A83D6225627B7004DB6CC /* GPUImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3DFA66CB238AD2FF00022790 /* Camera */,
+				3DBBDD272389891B006E7FAB /* Filter */,
+				3DBBDD2323897B64006E7FAB /* Resources */,
 				3D5A83D7225627B7004DB6CC /* AppDelegate.h */,
 				3D5A83D8225627B7004DB6CC /* AppDelegate.m */,
 				3D5A83DA225627B7004DB6CC /* ViewController.h */,
@@ -78,13 +104,72 @@
 			path = GPUImageDemo;
 			sourceTree = "<group>";
 		};
+		3DBBDD2323897B64006E7FAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBDD2423897B85006E7FAB /* test.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DBBDD272389891B006E7FAB /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBDD2823898A09006E7FAB /* GPUImageFilterBase.h */,
+				3DBBDD2923898A09006E7FAB /* GPUImageFilterBase.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		3DFA66CB238AD2FF00022790 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA66CE238AD65100022790 /* model */,
+				3DFA66CD238AD64A00022790 /* view */,
+				3DFA66CC238AD64400022790 /* controller */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		3DFA66CC238AD64400022790 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA66D5238AD73D00022790 /* CameraViewController.h */,
+				3DFA66D6238AD73D00022790 /* CameraViewController.m */,
+				3DFA66DB238AD87000022790 /* CameraViewController+TakePhoto.h */,
+				3DFA66DC238AD87000022790 /* CameraViewController+TakePhoto.m */,
+				3DFA66D8238AD82600022790 /* CameraViewControl+Private.h */,
+				3DFA66D9238AD82600022790 /* CameraViewControl+Private.m */,
+				3DFA66DE238AD88600022790 /* CameraViewController+UI.h */,
+				3DFA66DF238AD88600022790 /* CameraViewController+UI.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		3DFA66CD238AD64A00022790 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA66D2238AD6FD00022790 /* CaptureButton.h */,
+				3DFA66D3238AD6FD00022790 /* CaptureButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3DFA66CE238AD65100022790 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3DFA66CF238AD6DA00022790 /* CameraManager.h */,
+				3DFA66D0238AD6DA00022790 /* CameraManager.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		5AE4F84D922B83D871CC53E8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				53FDC2221657DD04AE6CDB76 /* Pods-GPUImageDemo.debug.xcconfig */,
 				1706876902F5E2AC619C1204 /* Pods-GPUImageDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +243,7 @@
 				3D5A83E4225627B8004DB6CC /* LaunchScreen.storyboard in Resources */,
 				3D5A83E1225627B8004DB6CC /* Assets.xcassets in Resources */,
 				3D5A83DF225627B7004DB6CC /* Main.storyboard in Resources */,
+				3DBBDD2523897B85006E7FAB /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,9 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFA66D4238AD6FD00022790 /* CaptureButton.m in Sources */,
+				3DFA66DD238AD87000022790 /* CameraViewController+TakePhoto.m in Sources */,
+				3DFA66DA238AD82600022790 /* CameraViewControl+Private.m in Sources */,
 				3D5A83DC225627B7004DB6CC /* ViewController.m in Sources */,
 				3D5A83E7225627B8004DB6CC /* main.m in Sources */,
 				3D5A83D9225627B7004DB6CC /* AppDelegate.m in Sources */,
+				3DBBDD2A23898A09006E7FAB /* GPUImageFilterBase.m in Sources */,
+				3DFA66D7238AD73D00022790 /* CameraViewController.m in Sources */,
+				3DFA66D1238AD6DA00022790 /* CameraManager.m in Sources */,
+				3DFA66E0238AD88600022790 /* CameraViewController+UI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GPUImage.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIImage *inputImage = [UIImage imageNamed:@"test.jpg"];
+
+    GPUImagePicture *stillImageSource = [[GPUImagePicture alloc] initWithImage:inputImage];
+    GPUImageSepiaFilter *stillImageFilter = [[GPUImageSepiaFilter alloc] init];
+    GPUImageView *view = [[GPUImageView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:view];
+    [stillImageSource addTarget:stillImageFilter];
+    [stillImageSource addTarget:view];
+    [stillImageFilter useNextFrameForImageCapture];
+    [stillImageSource processImage];
+    UIImage *currentFilteredVideoFrame = [stillImageFilter imageFromCurrentFramebuffer];
+    NSLog(@"cwb");
 }
 
 
